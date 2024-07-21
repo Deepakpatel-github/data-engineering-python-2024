@@ -34,8 +34,19 @@ print(board)
 
 # Challenge 6
 color = ['red', 'blue', 'green']
-R_Cube = [[[ color[z] for x in range(3)] for y in range(3)] for z in range(3)]
+R_Cube = [[[color[z] for x in range(3)] for y in range(3)] for z in range(3)]
 
 print(R_Cube)
+
+# Challenge 7
+friends = ['shubham', 'dheeraj', 'lalit', 'mohan', 'bhupen']
+for index, name in enumerate(friends, 1):   # begins with 1
+    print(f"({index}, {name})")
+
+# Challenge 8
+student_info = ['Deepak patel', 23, 'A+']
+
+name, age, grade = student_info
+print(f'{name} at age {age}, score {grade} in MBA from IIM Ahmedabad')
 
 
