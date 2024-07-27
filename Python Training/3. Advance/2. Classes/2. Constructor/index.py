@@ -17,6 +17,17 @@ Instance attributes are somewhat dynamic because they can have different values 
 All classes have a __init__ method associated with them. It helps in distinguishing methods and attributes of a class 
 from local variables."""
 
+# Self Parameter
+"""The self-parameter refers to the current instance of the class and accesses the class variables. We can use anything 
+instead of self, but it must be the first parameter of any function which belongs to the class."""
+
+""" When we do not include the constructor(_init_) in the class or forget to declare it, then that becomes the default constructor.
+ It does not perform any task but initializes the objects."""
+
+# More than One Constructor in Single class
+""" What happen if we declare the two same constructors in the class. the object of the class will always call the last 
+constructor if the class has multiple constructors."""
+
 class Person:
     # 👇 Class Attributes
     no_of_legs = 2
