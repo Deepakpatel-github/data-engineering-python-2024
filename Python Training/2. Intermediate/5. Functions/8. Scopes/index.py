@@ -24,9 +24,12 @@ def outer_function():
     outer_variable = "I'm in outer function"
 
     def inner_function():
+        inner_variable = "I'm in inner function"
         print(outer_variable)
 
+
     inner_function()
+    print(inner_variable)
 
 outer_function()  # Outputs: I'm in outer function
 # -------------------------------

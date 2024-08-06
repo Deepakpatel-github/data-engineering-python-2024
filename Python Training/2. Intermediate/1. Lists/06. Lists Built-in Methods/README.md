@@ -69,6 +69,30 @@ my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
 my_list.sort()
 # Result: [1, 1, 2, 3, 3, 4, 5, 5, 6, 9]
 ```
+#### Example 1: Sort characters ignoring case
+```py
+sentence = "Python is a powerful programming language"
+characters = list(sentence)
+
+# Sort characters ignoring case
+characters.sort(key=str.lower)
+print("Sorted characters (ignoring case):", characters)
+# e.g., 'a' and 'A' are treated as equal
+```
+
+#### Example 2: Sort words by length
+```py
+sentence = "Python is a powerful programming language"
+words = sentence.split()
+
+# Sort words by length
+words.sort(key=len)
+print("Words sorted by length:", words)
+
+# Sort words by the last character
+words.sort(key=lambda word: word[-1])
+print("Words sorted by last character:", words)
+```
 
 ## reverse()
 
