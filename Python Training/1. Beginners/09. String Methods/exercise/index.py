@@ -49,5 +49,7 @@ print(join_words)
 # Challenge 7
 sentence2 = 'a b c d g g t f k k k l o l k f s s k p j'
 print(sentence2.count('k')) #5
-
-
+#
+sentence = "Python is a powerful programming language"
+words = list(sentence)
+print(words) # ['Python', 'is', 'a', 'powerful', 'programming', 'language']

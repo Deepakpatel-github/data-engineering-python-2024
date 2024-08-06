@@ -47,3 +47,8 @@ print(words)  # ['Python', 'is', 'a', 'powerful', 'programming', 'language']
 sentence = "Python is easy. Python is fun. Python is powerful."
 count_python = sentence.count("Python")
 print(count_python)  # 3
+
+## if you want each character to split use list(), tuple(), set()
+sentence = "Python is a powerful programming language"
+characters = list(sentence)
+print(characters) #['P', 'y', 't', 'h', 'o', 'n', ' ', 'i', 's', ' ', 'a', ' ', 'p', 'o', 'w', 'e', 'r', 'f', 'u', 'l', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'i', 'n', 'g', ' ', 'l', 'a', 'n', 'g', 'u', 'a', 'g', 'e']

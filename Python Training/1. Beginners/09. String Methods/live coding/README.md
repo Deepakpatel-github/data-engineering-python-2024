@@ -107,3 +107,11 @@ sentence = "Python is easy. Python is fun. Python is powerful."
 count_python = sentence.count("Python")
 print(count_python)  # 3
 ```
+
+```py
+## if you want each character to split use list(), tuple(), set()
+## in set() only unique characters
+sentence = "Python is a powerful programming language"
+characters = list(sentence)
+print(characters) #['P', 'y', 't', 'h', 'o', 'n', ' ', 'i', 's', ' ', 'a', ' '
+```
