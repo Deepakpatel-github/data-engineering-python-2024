@@ -1,4 +1,4 @@
-# Default Param Values
+# Default Parameter Values
 
 ### You can also pass a default value for a parameter in a function. If a value is provided for that parameter when the function is called, it will use the provided value. If no value is provided, the function will use the default value.
 

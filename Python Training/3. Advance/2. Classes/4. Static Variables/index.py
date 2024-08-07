@@ -8,7 +8,7 @@ Shared Data Across Instances:
 Static variables can hold data that should be shared among all instances of a class.
 For example, a counter that tracks the number of instances created.'''
 class Car:
-    # 👇 Static variable
+    # 👇 Static variable/Class variable
     num_cars = 0
 
     def __init__(self, brand, model):

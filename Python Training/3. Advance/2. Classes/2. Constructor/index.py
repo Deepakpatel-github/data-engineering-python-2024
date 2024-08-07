@@ -1,9 +1,8 @@
 # 2. __init__ is a constructor which allow us to create variables in class.
 
-"""In Python, a constructor is a special method that is called when an instance (object) of a class
-is created. The constructor method is
-defined using the __init__ method. It allows you to initialize the object's attributes with specific values
-when the object is created.
+"""In Python, a constructor is a special method that is automatically called when an instance (object) of a class
+is created. The constructor method is defined using the __init__ method.
+It allows you to initialize the object's attributes with specific values when the object is created.
 """
 
 """The primary use of a constructor is to initialize the attributes of a class when an object is created. 
@@ -38,16 +37,24 @@ class Person:
         self.age = 20
         self.location = "USA"
 
+    ## Constructor overiding
+
+    def __init__(self):
+        self.age = '30'
+        self.name = 'Deepak'
+        self.location = 'India'
+
     def user_info(self):
         print(f"Name: {self.name}, Age: {self.age}, Location: {self.location}")
 
 
 # Object 1
 jordan = Person()
-jordan.user_info()
-print(jordan.no_of_legs)
+jordan.user_info()        ## Name: Deepak, Age: 30, Location: India
+print(jordan.no_of_legs)  ## 2
 
 # Object 2
 Deepak = Person()
-Deepak.user_info()
-print(Deepak.no_of_legs)
+Deepak.user_info()        ## Name: Deepak, Age: 30, Location: India
+print(Deepak.no_of_legs)  ## 2
+
